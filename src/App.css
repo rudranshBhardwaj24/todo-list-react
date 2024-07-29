@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start of the container */
+  min-height: 100vh; /* Minimum height of the container */
+  background-color: #f0f0f0; /* Optional: Background color for better visibility */
+  padding: 20px; /* Optional: Padding for better spacing */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.card-view {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap onto multiple lines */
+  gap: 20px; /* Optional: Add spacing between cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Display card content in a vertical column */
+  justify-content: space-between; /* Space out content inside the card */
+  width: 200px; /* Set a fixed width for cards (adjust as needed) */
+  background-color: white; /* Card background color */
+  border: 1px solid #ddd; /* Card border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Internal padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  box-sizing: border-box; /* Include padding and border in the card's total width and height */
+}

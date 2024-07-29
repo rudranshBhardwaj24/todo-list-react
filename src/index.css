@@ -1,0 +1,14 @@
+/* index.css */
+body,
+html,
+#root {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Background color for better visibility */
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+}

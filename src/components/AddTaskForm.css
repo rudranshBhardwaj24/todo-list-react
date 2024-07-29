@@ -1,0 +1,37 @@
+/* AddTaskForm.css */
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.add-task-form input[type="text"] {
+  width: 60%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task-form label {
+  margin-bottom: 10px;
+}
+
+.add-task-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 20%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.add-task-form button:hover {
+  background-color: #0056b3;
+}

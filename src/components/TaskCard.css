@@ -1,0 +1,48 @@
+/* TaskCard.css */
+.task-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 300px; /* Fixed width for better wrapping */
+  text-align: center; /* Center text within the task card */
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.task-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.task-card p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Add to App.css or TaskCard.css */
+.delete-button {
+  background-color: red; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.delete-button:hover {
+  background-color: darkred; /* Darker color on hover */
+}
